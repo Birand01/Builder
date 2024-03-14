@@ -34,6 +34,7 @@ public abstract class InteractionBase : MonoBehaviour
 
     private void OnTriggerStaySubscription()
     {
+      
         _collider.OnTriggerStayAsObservable().Subscribe(other =>
         {
             OnTriggerStayAction(other);

@@ -380,6 +380,7 @@
 "Assets/Scripts/Player/PlayerController.cs"
 "Assets/Scripts/Player/PlayerInput.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
+"Assets/Scripts/Spawners/StoneSpawner/StoneSpawner.cs"
 -langversion:9.0
 
 /deterministic
