@@ -56,7 +56,20 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
         handle.pivot = center;
         handle.anchoredPosition = Vector2.zero;
     }
-
+    public float HorizontalAxis()
+    {
+        if (input.x != 0)
+            return input.x;
+        else
+            return Input.GetAxisRaw("Horizontal");
+    }
+    public float VerticalAxis()
+    {
+        if (input.y != 0)
+            return input.y;
+        else
+            return Input.GetAxisRaw("Vertical");
+    }
     public virtual void OnPointerDown(PointerEventData eventData)
     {
         OnDrag(eventData);

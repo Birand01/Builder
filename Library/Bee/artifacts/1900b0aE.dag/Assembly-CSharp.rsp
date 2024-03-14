@@ -374,6 +374,11 @@
 "Assets/Art/Joystick Pack/Scripts/Joysticks/FixedJoystick.cs"
 "Assets/Art/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs"
 "Assets/Art/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs"
+"Assets/Scripts/DI/DepedencyInjector.cs"
+"Assets/Scripts/Player/PlayeAnimation.cs"
+"Assets/Scripts/Player/PlayerController.cs"
+"Assets/Scripts/Player/PlayerInput.cs"
+"Assets/Scripts/Player/PlayerMovement.cs"
 -langversion:9.0
 
 /deterministic
