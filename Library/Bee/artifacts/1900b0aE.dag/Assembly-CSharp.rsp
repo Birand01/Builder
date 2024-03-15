@@ -376,7 +376,7 @@
 "Assets/Art/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs"
 "Assets/Scripts/Base/InteractionBase.cs"
 "Assets/Scripts/DI/DepedencyInjector.cs"
-"Assets/Scripts/Player/PlayeAnimation.cs"
+"Assets/Scripts/Player/PlayerAnimation.cs"
 "Assets/Scripts/Player/PlayerController.cs"
 "Assets/Scripts/Player/PlayerInput.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
