@@ -1,0 +1,1141 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 32547 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/90538/Desktop/GithubProjects/Builder
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49794
+Successfully changed project path to: C:/Users/90538/Desktop/GithubProjects/Builder
+C:/Users/90538/Desktop/GithubProjects/Builder
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 230.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/90538/Desktop/GithubProjects/Builder/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3990 MB
+    Driver:   31.0.15.1748
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005149 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 118.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.892 seconds
+Domain Reload Profiling:
+	ReloadAssembly (893ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (622ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (317ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007115 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\90538\Desktop\GithubProjects\Builder\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\90538\Desktop\GithubProjects\Builder\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.274 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1275ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1022ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (361ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (430ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (280ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4390 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (128.7 KB). Loaded Objects now: 4847.
+Memory consumption went from 146.7 MB to 146.6 MB.
+Total: 3.511000 ms (FindLiveObjects: 0.327600 ms CreateObjectMapping: 0.244400 ms MarkObjects: 2.830900 ms  DeleteObjects: 0.107100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4433.276646 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/21.png
+  artifactKey: Guid(4af72c7c63c89564888729d51266af18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/21.png using Guid(4af72c7c63c89564888729d51266af18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388bd0920caae3e990ee5079e3a96c41') in 0.163619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Flag/Blue.png
+  artifactKey: Guid(421196d62fd2ef744876c84fcc94a8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Flag/Blue.png using Guid(421196d62fd2ef744876c84fcc94a8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5aeacd8e75222a6fa14da03f19b7bad') in 0.064839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Shield/Blue.png
+  artifactKey: Guid(07f0abc46b9b06346aeb2b285e443f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Shield/Blue.png using Guid(07f0abc46b9b06346aeb2b285e443f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a621a44bdb3dd220f7b78e46b00724') in 0.047267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bag/Bag 1/Bag 1.psd
+  artifactKey: Guid(e21eb3d9d2391d842a379a160c63a427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bag/Bag 1/Bag 1.psd using Guid(e21eb3d9d2391d842a379a160c63a427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1089645708a0fa71aa12665d9777c7e9') in 0.061530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Badge/Badge.psd
+  artifactKey: Guid(503dd9383c8364d4c8619fae81ff8723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Badge/Badge.psd using Guid(503dd9383c8364d4c8619fae81ff8723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e69224301fef31ea0f1c50a0d360c20') in 0.045878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Blue Button Continue.png
+  artifactKey: Guid(a8653d5f88eeddc419a999485704841e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Blue Button Continue.png using Guid(a8653d5f88eeddc419a999485704841e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f867cb6bea9bee839fc9eacabe16d65') in 0.035768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Coins/Coin/All Coins.psd
+  artifactKey: Guid(fa937429d0696724e98ec2dd437ac1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Coins/Coin/All Coins.psd using Guid(fa937429d0696724e98ec2dd437ac1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39cc7738b3d377e6aa8bafa709d11523') in 0.033163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Win-assets/Background Purple.png
+  artifactKey: Guid(e8137ccfd2767aa42809bf354608420e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Win-assets/Background Purple.png using Guid(e8137ccfd2767aa42809bf354608420e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8dad7c93ff79c245852ca2f261de004') in 0.054342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Blue Button Claim.png
+  artifactKey: Guid(0bd20eb5b953c7942b5d345086110e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Blue Button Claim.png using Guid(0bd20eb5b953c7942b5d345086110e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68f80729c02670d0c568660165ded69') in 0.027693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Background/Background 4.png
+  artifactKey: Guid(d7560b0f336bba7498aa575d232ef81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Background/Background 4.png using Guid(d7560b0f336bba7498aa575d232ef81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2350e35d9db1ee1e7e8a8780d220561d') in 0.185775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Bar Progress in game Green.png
+  artifactKey: Guid(b68c26fc83e8ac643965410660e70bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Bar Progress in game Green.png using Guid(b68c26fc83e8ac643965410660e70bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8534111b23fcdd44d6b53cf97c72e446') in 0.027557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Background Bar Progress Challenge.png
+  artifactKey: Guid(0bbf455189ab5964c9d8601972602d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Background Bar Progress Challenge.png using Guid(0bbf455189ab5964c9d8601972602d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e3df3690d317e5f13fb27016ff4d2f') in 0.027678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/ArrowButtom.png
+  artifactKey: Guid(777e7f4ab8517ef479cc6df2d091d95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/ArrowButtom.png using Guid(777e7f4ab8517ef479cc6df2d091d95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c04c73d1563060864ac85071f1e05c') in 0.037059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Bar Progress Challenge.png
+  artifactKey: Guid(db7fd76143b8b8e4d87df4e9f1591bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Bar Progress Challenge.png using Guid(db7fd76143b8b8e4d87df4e9f1591bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a647df22a43d25938dc2c860f0be3529') in 0.021645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/29.png
+  artifactKey: Guid(ba70c883e1f8ae840958613121565dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/29.png using Guid(ba70c883e1f8ae840958613121565dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f321b041b27100d3b1ee755da19b4359') in 0.036327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Background/Background 3.png
+  artifactKey: Guid(3971118ed82aa1e47baefcf582847ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Background/Background 3.png using Guid(3971118ed82aa1e47baefcf582847ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484a30f715a1a25e1be1bd830f50d8a1') in 0.142483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/ArrowSimpleRight.png
+  artifactKey: Guid(cb114c1a615a3c8499d166b69a8a795f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/ArrowSimpleRight.png using Guid(cb114c1a615a3c8499d166b69a8a795f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b488057f2aadfd6a322dcb15f6e402') in 0.023983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Win-assets/Background Yellow.png
+  artifactKey: Guid(acabd4b39943bb44086ec83810eedcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Win-assets/Background Yellow.png using Guid(acabd4b39943bb44086ec83810eedcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4395dd5105ba96dcb70037237126c6') in 0.051226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/28.png
+  artifactKey: Guid(ce6dc0dc87f039344ae273debbe85e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/28.png using Guid(ce6dc0dc87f039344ae273debbe85e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b9f4f6893b5f57d16d9a5a8c975708') in 0.037471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Badge/Badge Outline.png
+  artifactKey: Guid(0239743c8c23b8e46a84fc64f581e800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Badge/Badge Outline.png using Guid(0239743c8c23b8e46a84fc64f581e800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6471c600c7df126450f32227d633de30') in 0.036292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Background Customize.png
+  artifactKey: Guid(ea34a02283d71124cb3cae56094e5e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Background Customize.png using Guid(ea34a02283d71124cb3cae56094e5e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3188ba9eb5272004f07902c35705b3c6') in 0.128478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/Blue.png
+  artifactKey: Guid(70f0893cea1535941ab16483ddd2d6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/Blue.png using Guid(70f0893cea1535941ab16483ddd2d6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0187262cb3cb4e5fc0b038cc2dd325d') in 0.037375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/AWESOME___.png
+  artifactKey: Guid(c157698b216a05048b989abfe25abae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/AWESOME___.png using Guid(c157698b216a05048b989abfe25abae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43dee9f41720a7df553fc2e80138919') in 0.027425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/24.png
+  artifactKey: Guid(cf1bc71a6824f1e429bed198b1a596e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/24.png using Guid(cf1bc71a6824f1e429bed198b1a596e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381efb610b3376608c6a8b7c188c170d') in 0.039953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Background Buttons Menu.png
+  artifactKey: Guid(664532547e17b244499b6ddc142ebb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Background Buttons Menu.png using Guid(664532547e17b244499b6ddc142ebb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ca40f41b84eeb71a2eab719a9ff4b0') in 0.061031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Win-assets/Background Green.png
+  artifactKey: Guid(0e7e23aae9879f6449e04ad82e89627c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Win-assets/Background Green.png using Guid(0e7e23aae9879f6449e04ad82e89627c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7176fe1ff99d3738f9366b9394a22fb') in 0.049227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Diamonds/Diamond 2/Blue.png
+  artifactKey: Guid(66f5cbf92c0336e47a073c33e5e0a8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Diamonds/Diamond 2/Blue.png using Guid(66f5cbf92c0336e47a073c33e5e0a8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f0d76f7028966738d0d5914e14c53a') in 0.038628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Background/Background 2.png
+  artifactKey: Guid(80ca872f56e1d374a8d320061f652e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Background/Background 2.png using Guid(80ca872f56e1d374a8d320061f652e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6478710130f9aff4cc51ae846b835ad5') in 0.192800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Background Progress Bar in game.png
+  artifactKey: Guid(7cc3b324388be164a80befd8ea03dcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Background Progress Bar in game.png using Guid(7cc3b324388be164a80befd8ea03dcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b623fa7aa313deffa7b2b95d54b74e1') in 0.036146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Blue Buton OK.png
+  artifactKey: Guid(f0f7474323b7de24f8819a2ca4ba2fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Blue Buton OK.png using Guid(f0f7474323b7de24f8819a2ca4ba2fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11c432287de31cf2ebc0ef434be41de') in 0.034821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/Black Skull.png
+  artifactKey: Guid(d31fff224b1b8cf4ea1fbd0fd17b0d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/Black Skull.png using Guid(d31fff224b1b8cf4ea1fbd0fd17b0d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b856feb6c04207567b3c2a70df8f26ae') in 0.048789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bolt/Blue.png
+  artifactKey: Guid(143b5bdebf532c54cada0bd7b5a8450c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bolt/Blue.png using Guid(143b5bdebf532c54cada0bd7b5a8450c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36326c698593dec78fd91b1b2a5e6ef2') in 0.052469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/30.png
+  artifactKey: Guid(148afe25a385c354ea5513b05202e9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/30.png using Guid(148afe25a385c354ea5513b05202e9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24597b2aee3d037353997c7bdb9c20d0') in 0.055204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/25.png
+  artifactKey: Guid(e8e3afab0ef96e94c85d2a3df1ece805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/25.png using Guid(e8e3afab0ef96e94c85d2a3df1ece805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f499a74e35d19aafa6559d28ac7a8d9') in 0.047456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/27.png
+  artifactKey: Guid(695efc9f83f4a3d4c911ad8e747c272d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/27.png using Guid(695efc9f83f4a3d4c911ad8e747c272d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd0d7cdff910e4cdabd00c3825ed7d6') in 0.054116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/26.png
+  artifactKey: Guid(b66df13b3f4d74f45b86266a729c88d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/26.png using Guid(b66df13b3f4d74f45b86266a729c88d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77769a9b926aff63f47f22f5ef056a5d') in 0.048598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.610171 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Blue Button Next.png
+  artifactKey: Guid(0c6f45571ab60d243a060ab276384af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Blue Button Next.png using Guid(0c6f45571ab60d243a060ab276384af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ef15e72d4875b15fbeb47f118a56b6') in 0.026424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Blue Case.png
+  artifactKey: Guid(447768aa11732104ea8c407367fe9e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Blue Case.png using Guid(447768aa11732104ea8c407367fe9e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b2f012f58ad08f4ceef9868e0564c6') in 0.035395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bolt/Bolt.psd
+  artifactKey: Guid(830e8791937050d4588a8b162ba5ae93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bolt/Bolt.psd using Guid(830e8791937050d4588a8b162ba5ae93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf072cec2b9570a2b72e8148b6d5e27') in 0.055894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Bouton pub.png
+  artifactKey: Guid(ccf259383fe22774ca377ca361679073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Bouton pub.png using Guid(ccf259383fe22774ca377ca361679073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13c654bf03c9e10dca8b6c0cb5fd65a') in 0.054262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Artwork PSD + Screens/SCREENS/Boutons 2.jpg
+  artifactKey: Guid(68262cb7b8312aa47a186adff07b44eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Artwork PSD + Screens/SCREENS/Boutons 2.jpg using Guid(68262cb7b8312aa47a186adff07b44eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3e551736fbd8d671c243b78137d222') in 0.265522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Blue Button Skip.png
+  artifactKey: Guid(6d5ddaf9d30ea254687e1804686a2606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Blue Button Skip.png using Guid(6d5ddaf9d30ea254687e1804686a2606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ed1c5ccdecc3d50b37764fdf461a37') in 0.040544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bow/Bow White.png
+  artifactKey: Guid(7770f99d7a4d08943ad3dc0661683054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bow/Bow White.png using Guid(7770f99d7a4d08943ad3dc0661683054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e738ff34c522be8eb2c099d78a012021') in 0.059107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Token/Bolt Token.png
+  artifactKey: Guid(74ad5d0b40af6de4990be4f57ec5bb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Token/Bolt Token.png using Guid(74ad5d0b40af6de4990be4f57ec5bb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d26dac07c22f6244d520e54a614264e') in 0.049044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Card/Card.psd
+  artifactKey: Guid(a9c6c04c2a7ab304fb0c3c7db172c481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Card/Card.psd using Guid(a9c6c04c2a7ab304fb0c3c7db172c481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84a2c9e56b77b970d94e1082414a5c9') in 0.058516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Card/Card.png
+  artifactKey: Guid(a4d8637bccc82e94a9fc1ca9e87888dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Card/Card.png using Guid(a4d8637bccc82e94a9fc1ca9e87888dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4978cd17808d799dac5fb28576555d71') in 0.055135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Prize Machine-assets/Case Chest.png
+  artifactKey: Guid(9841723ba294daa42972bce807d93174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Prize Machine-assets/Case Chest.png using Guid(9841723ba294daa42972bce807d93174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858528d6a560178557405ff17b4f71cc') in 0.044024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Artwork PSD + Screens/PSD/Buttons.psd
+  artifactKey: Guid(00cd31f7129f02c42b7337728dc1cb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Artwork PSD + Screens/PSD/Buttons.psd using Guid(00cd31f7129f02c42b7337728dc1cb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22d4ade5a240d4edc1b95cf1941f370') in 0.236134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Sherif Stars/Bronze.png
+  artifactKey: Guid(9954e757621332d4688959482e8e508e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Sherif Stars/Bronze.png using Guid(9954e757621332d4688959482e8e508e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8325faac9d85992d34b7f2553174b28a') in 0.045833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Button5.png
+  artifactKey: Guid(6ef4f7b7567571a47a5f17f7e2c5423d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Button5.png using Guid(6ef4f7b7567571a47a5f17f7e2c5423d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160bd47dcd0e26b5f255f6da6070cc27') in 0.038646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Button3.png
+  artifactKey: Guid(4e134730a112dec4e8467371c0aceda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Button3.png using Guid(4e134730a112dec4e8467371c0aceda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f36e4e3e175cc82a08544978bb4366') in 0.033659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Button4.png
+  artifactKey: Guid(d1e9bedf2e4ee1f4c8b6911a35a51a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Button4.png using Guid(d1e9bedf2e4ee1f4c8b6911a35a51a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6981d03b29de2d14fe88d261db7759c0') in 0.033701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bow/Bow Outline.png
+  artifactKey: Guid(371051f1ea3639d4fb74067afc5593f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bow/Bow Outline.png using Guid(371051f1ea3639d4fb74067afc5593f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2172d252b6d74fc86a9adb699118dd') in 0.049738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Button6.png
+  artifactKey: Guid(681f5cfe0b3dcab4487b63a423f78fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Button6.png using Guid(681f5cfe0b3dcab4487b63a423f78fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92da7c2fab1d2d9de93bacf3157bcd47') in 0.037886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.255319 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Prize Machine-assets/Case Chest Unlock.png
+  artifactKey: Guid(80bdcdef9e363c54a8b53316daefe64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Prize Machine-assets/Case Chest Unlock.png using Guid(80bdcdef9e363c54a8b53316daefe64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72039906fe87adf48f3f6bea7e6d045') in 0.023252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Chest/Chest.psd
+  artifactKey: Guid(8d96f46747b04054baa700fbe722a4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Chest/Chest.psd using Guid(8d96f46747b04054baa700fbe722a4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd9e734f31945702dc55be94762ab76') in 0.043594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Clock/Clock.png
+  artifactKey: Guid(9a2ce5827c2740641a0cfd497e71acb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Clock/Clock.png using Guid(9a2ce5827c2740641a0cfd497e71acb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5dfc21b373fce322c4e3ea76699363') in 0.031655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Coins/Coin/Coin.png
+  artifactKey: Guid(96c75d6bfce4b7441a9d8a2c26b29b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Coins/Coin/Coin.png using Guid(96c75d6bfce4b7441a9d8a2c26b29b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1960ad219db74c90670ec96b0d37b942') in 0.043680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Chest/Chest 1.png
+  artifactKey: Guid(2ac067bdaa57616409f0c798bf22ee24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Chest/Chest 1.png using Guid(2ac067bdaa57616409f0c798bf22ee24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d8a1ed87ab0e1063942ef250437e19') in 0.050388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Close Yellow.png
+  artifactKey: Guid(5d63e2f130bccc74a8c34bf480357ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Close Yellow.png using Guid(5d63e2f130bccc74a8c34bf480357ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb2c4f4d8c484b919e1e0dc306a803e') in 0.034410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Customize.png
+  artifactKey: Guid(d2d5b6b6519f8ad4c955e74ac572fc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Customize.png using Guid(d2d5b6b6519f8ad4c955e74ac572fc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8623c0f561acbaeb6675d1ab32737b0') in 0.034437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Crown/Crown.psd
+  artifactKey: Guid(5ba42c904e134c44b9669728f5fc94b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Crown/Crown.psd using Guid(5ba42c904e134c44b9669728f5fc94b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2499f8d5f756db4d5bfb14a542bda96b') in 0.047946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Closebook/Closebook.psd
+  artifactKey: Guid(7233ebd21c52a8441a3dc12f964bf529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Closebook/Closebook.psd using Guid(7233ebd21c52a8441a3dc12f964bf529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2bee6ee192c64fc5f3896500ffa48b') in 0.036324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Close Purple.png
+  artifactKey: Guid(f9f00e28fa9c89d44a91c880a49c1b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Close Purple.png using Guid(f9f00e28fa9c89d44a91c880a49c1b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72df50df1e3767dde17d3f3b5370ec91') in 0.019191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Curseur.png
+  artifactKey: Guid(50cb2a82c80f3cc4793b28d88742f0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Curseur.png using Guid(50cb2a82c80f3cc4793b28d88742f0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc71da211214643b3e932af29aef0272') in 0.022207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Case Lock.png
+  artifactKey: Guid(89b13fb9b22d762479750933c96f4f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Case Lock.png using Guid(89b13fb9b22d762479750933c96f4f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a00889d60531613c6f81b096fc7db38') in 0.041611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Close Background Customize.png
+  artifactKey: Guid(946e04e6fbb597948879c3e5b1beb2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Close Background Customize.png using Guid(946e04e6fbb597948879c3e5b1beb2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9247011200258bbd664d3c08c3cc88e7') in 0.026128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Closebook/Closebook.png
+  artifactKey: Guid(948b2bf5ac4518345b5d59114e58fe47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Closebook/Closebook.png using Guid(948b2bf5ac4518345b5d59114e58fe47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c48a40978af767e41dbbf6c75a0b6f5') in 0.032550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.823363 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Artwork PSD + Screens/SCREENS/Daily.jpg
+  artifactKey: Guid(8bc06d24fb25274488582408d857243f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Artwork PSD + Screens/SCREENS/Daily.jpg using Guid(8bc06d24fb25274488582408d857243f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94772c10a03e1a7fc9d10b643bac00b5') in 0.129301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.581248 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Elipse 1.png
+  artifactKey: Guid(6163cf103812ee24a8c1a49a4963eac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Elipse 1.png using Guid(6163cf103812ee24a8c1a49a4963eac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77b49052ef540b1ff6324ad46080cb1') in 0.026756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Good.png
+  artifactKey: Guid(6d4eaae8c34f8324889d96cc2054896a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Good.png using Guid(6d4eaae8c34f8324889d96cc2054896a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b827f0601057545293c446c36186d9e') in 0.027218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Gift/Gift.png
+  artifactKey: Guid(6ea22b9604dbb5f489fb7fc30c8692b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Gift/Gift.png using Guid(6ea22b9604dbb5f489fb7fc30c8692b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c789164f374fec907e6d466174d66e') in 0.038061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Firecracker/Firecracker.psd
+  artifactKey: Guid(680ed790c2e358e4ea4d8a235838c309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Firecracker/Firecracker.psd using Guid(680ed790c2e358e4ea4d8a235838c309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4888445ef52335c7be3bfb17e64452') in 0.039439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Gift/Gift.psd
+  artifactKey: Guid(f94c54089d48bff4d9cc13bcb290d708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Gift/Gift.psd using Guid(f94c54089d48bff4d9cc13bcb290d708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fa4c8ebb54cf738c24a5c231a53f3d') in 0.035046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Diamonds/Diamond 2/Green.png
+  artifactKey: Guid(136bcfe6aea48fb4e9574917e5b4383b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Diamonds/Diamond 2/Green.png using Guid(136bcfe6aea48fb4e9574917e5b4383b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0d6a018f8481858f48eb6a45aadfdb') in 0.032909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Green Button Continue.png
+  artifactKey: Guid(6ba2a62783c8a3e42943a53eaa43d258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Green Button Continue.png using Guid(6ba2a62783c8a3e42943a53eaa43d258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e667d23c81db2e3dd011664938a91ba') in 0.028865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Shield/Green.png
+  artifactKey: Guid(8deaa02a91702194991aa135d939178e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Shield/Green.png using Guid(8deaa02a91702194991aa135d939178e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce49067daeaefd8c335a38e9b6581303') in 0.049813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Gems/Gem 2 Pack/Gem 2.psd
+  artifactKey: Guid(a3b203d174e21e84dae0421d74776b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Gems/Gem 2 Pack/Gem 2.psd using Guid(a3b203d174e21e84dae0421d74776b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5da6076a491e04b900244d2aea6dc8') in 0.040182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Potion/Potion2/Green.png
+  artifactKey: Guid(30cba0eb401f19745a0789566d72334d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Potion/Potion2/Green.png using Guid(30cba0eb401f19745a0789566d72334d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e551514a4e363082f7c30c7f8bae1f') in 0.040396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bolt/Green.png
+  artifactKey: Guid(cdb369a06c30aae46a3994833428a7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bolt/Green.png using Guid(cdb369a06c30aae46a3994833428a7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981ee907b48f755767a3f6c6cffb813e') in 0.037543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.575180 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Green Button Skip.png
+  artifactKey: Guid(c89b3ac57e7c46644a70503903a4fea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Green Button Skip.png using Guid(c89b3ac57e7c46644a70503903a4fea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2895d0ead111a0557b4b333751c4b64') in 0.024282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Win-assets/Green Gift Progress Bar.png
+  artifactKey: Guid(6fb3311579bb4dc44bab9a65a8139703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Win-assets/Green Gift Progress Bar.png using Guid(6fb3311579bb4dc44bab9a65a8139703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aba3d05f277c92dab5d32dbf1f46cb3') in 0.021135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Sherif Stars/Grey.png
+  artifactKey: Guid(8ead451b56ea2444eafb9c36e8afa313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Sherif Stars/Grey.png using Guid(8ead451b56ea2444eafb9c36e8afa313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe95d9915910cd519b883880da0338b') in 0.044902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Heart/Heart.psd
+  artifactKey: Guid(f23d6f6df0f5e0843ac6e0d8f1b78c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Heart/Heart.psd using Guid(f23d6f6df0f5e0843ac6e0d8f1b78c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fd1b228d2c31abe64d5cffdb830ab2') in 0.043044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Artwork PSD + Screens/PSD/Home.psd
+  artifactKey: Guid(69de767565aa758489394386085f890b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Artwork PSD + Screens/PSD/Home.psd using Guid(69de767565aa758489394386085f890b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89dcad261d8942350e820a3dadd7232f') in 0.156569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.899606 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Artwork PSD + Screens/PSD/In Game.psd
+  artifactKey: Guid(3c77121e37cff6943b2b710bd8c30db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Artwork PSD + Screens/PSD/In Game.psd using Guid(3c77121e37cff6943b2b710bd8c30db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a337a36aca10692c5fbb317298bb8f62') in 0.229622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Heart/Outline.png
+  artifactKey: Guid(ca9c68e607d264045883ef5a2111190a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Heart/Outline.png using Guid(ca9c68e607d264045883ef5a2111190a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5de28fe86782d1549056a26c092113') in 0.033450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Shield/Orange.png
+  artifactKey: Guid(02e22a0fdaf085e419108ab549a53ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Shield/Orange.png using Guid(02e22a0fdaf085e419108ab549a53ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275889c77fd90dd69b499e16183915a7') in 0.041996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Icon Club/Outline.png
+  artifactKey: Guid(f1c8b9d92f7c5554b9df234942a7181e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Icon Club/Outline.png using Guid(f1c8b9d92f7c5554b9df234942a7181e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa157dc6efc86b7de96233a3def10a2') in 0.036406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Token/Star Token.png
+  artifactKey: Guid(4597ae27bdc21c14c857ef39bf8a32d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Token/Star Token.png using Guid(4597ae27bdc21c14c857ef39bf8a32d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8b3f0f54d715557e2d61d8ac2a8853') in 0.033698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Double Sword/Outline.png
+  artifactKey: Guid(96ad0ac9bd4f49640af3a5e9aa231e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Double Sword/Outline.png using Guid(96ad0ac9bd4f49640af3a5e9aa231e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655b496707f0f661c3a7bb85e349184d') in 0.030489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Press to.png
+  artifactKey: Guid(f66169c1a0cbade4ea4c12ba8c87ccb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Press to.png using Guid(f66169c1a0cbade4ea4c12ba8c87ccb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7029a94ca80d35f93672509ec7b5e872') in 0.033479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Pills/White.png
+  artifactKey: Guid(1bc2f2cd0fa68db43898b0e1ee48b680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Pills/White.png using Guid(1bc2f2cd0fa68db43898b0e1ee48b680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911e6814a07bf40afe8d9f26aae0ecf2') in 0.036855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Diamonds/Diamond 2/Mauve.png
+  artifactKey: Guid(d9a7897c1324e1a48ad118460d0248d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Diamonds/Diamond 2/Mauve.png using Guid(d9a7897c1324e1a48ad118460d0248d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9ffad355ac758ddb6fe70be0472136') in 0.032891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Closebook/White.png
+  artifactKey: Guid(9b927c97e63ba4d4790c17929453c861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Closebook/White.png using Guid(9b927c97e63ba4d4790c17929453c861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faddbb985c4f39ce98bf6d6beee2e525') in 0.035518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Yellow Buton OK.png
+  artifactKey: Guid(950cc223f0ccb454fbc465474d358735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Yellow Buton OK.png using Guid(950cc223f0ccb454fbc465474d358735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f88586dc459754b36899c2844097c01') in 0.027537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Key/White.png
+  artifactKey: Guid(0dc99d3609fc6414ab0a4ac486b89ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Key/White.png using Guid(0dc99d3609fc6414ab0a4ac486b89ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607b57ab65759b791bf8c2e180bf6c00') in 0.034285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Potion/Potion/Potion.psd
+  artifactKey: Guid(ad84385de3ed1a2458d66c02b59aeeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Potion/Potion/Potion.psd using Guid(ad84385de3ed1a2458d66c02b59aeeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7627a97113e1a2eac526e3700f1f38') in 0.045501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Pub Purple Button Claim.png
+  artifactKey: Guid(3675fbff22aff6f4883f4de37296ccd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Pub Purple Button Claim.png using Guid(3675fbff22aff6f4883f4de37296ccd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0c908f0f9f20816671b7b56e536014') in 0.023472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Stars/Red.png
+  artifactKey: Guid(c953c4403257dd645ad419a1ac2c15bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Stars/Red.png using Guid(c953c4403257dd645ad419a1ac2c15bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8033cde4134be86eff988c4082c6251') in 0.037306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Small Stars/Small Stars.png
+  artifactKey: Guid(cb320bf234f79b54090d07820a9f0823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Small Stars/Small Stars.png using Guid(cb320bf234f79b54090d07820a9f0823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f816c41a34e7a125f05c2ec5d46d423f') in 0.044146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Pop up Green.png
+  artifactKey: Guid(2eb62d53cb35de44e8e8f516eff588e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Pop up Green.png using Guid(2eb62d53cb35de44e8e8f516eff588e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03826384c66835252cee82983248b17f') in 0.062537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Heart/Red.png
+  artifactKey: Guid(b9c190498d68b5548a7a4a0ba102ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Heart/Red.png using Guid(b9c190498d68b5548a7a4a0ba102ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dfbe8a24e4880a5a382ee48e33aa490') in 0.036031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/TRY AGAIN.png
+  artifactKey: Guid(4f14613cb7f26c245baf3b75d32472f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/TRY AGAIN.png using Guid(4f14613cb7f26c245baf3b75d32472f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc96ade95517995fe0cb63463a23684') in 0.028712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Stars/Outline.png
+  artifactKey: Guid(17da3ed5d67f8184d8e72c8e9bfa78d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Stars/Outline.png using Guid(17da3ed5d67f8184d8e72c8e9bfa78d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fa0de1849469f2731d620af2f67449') in 0.032895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Clock/White.png
+  artifactKey: Guid(54c28757bd2c1f94d9e2f86442459b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Clock/White.png using Guid(54c28757bd2c1f94d9e2f86442459b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0ce55b39c3d28bb1ced1eb785e2876') in 0.038519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Wizard Hat/White.png
+  artifactKey: Guid(0de6fcfff8d64d34a8f59009141d9b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Wizard Hat/White.png using Guid(0de6fcfff8d64d34a8f59009141d9b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abac390340c95750ca365faa18bb13ba') in 0.033240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Gun/Outline.png
+  artifactKey: Guid(3863ec422464d02489b1005d3d0eadfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Gun/Outline.png using Guid(3863ec422464d02489b1005d3d0eadfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b7dc6d6c6aa41f5aab12434f282181') in 0.033617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/TV/TV.png
+  artifactKey: Guid(706f06ddf31c08d4799637affab714e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/TV/TV.png using Guid(706f06ddf31c08d4799637affab714e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84018a0619f660898a3acd1bfb7f901') in 0.037863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/Trophy.png
+  artifactKey: Guid(622512446a2443f4da7ba1ca9c089e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/Trophy.png using Guid(622512446a2443f4da7ba1ca9c089e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0fc7ea4aceb657ad9253e268c365a3') in 0.037786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Heart/White.png
+  artifactKey: Guid(5a048fec5424fbf449daf9e6c0e4e0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Heart/White.png using Guid(5a048fec5424fbf449daf9e6c0e4e0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5888178fe2b81cfb2acb0ac783f11c') in 0.033873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bomb/White.png
+  artifactKey: Guid(6143dd0aff3e85c4da7b52173c314be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bomb/White.png using Guid(6143dd0aff3e85c4da7b52173c314be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5928694f69b0fa96c2225f3cf6170f73') in 0.036505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Potion/Potion2/Purple.png
+  artifactKey: Guid(08befa1b168e28049a6b94ed5ae40bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Potion/Potion2/Purple.png using Guid(08befa1b168e28049a6b94ed5ae40bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35dccd879a81df2b9c9a83484efc26c6') in 0.032889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Purple Button Open.png
+  artifactKey: Guid(c620a070aa68db14295638283d8f963f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Purple Button Open.png using Guid(c620a070aa68db14295638283d8f963f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a63acad7fbafea2dc7df886f363f35') in 0.025040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Token/Token.psd
+  artifactKey: Guid(48c423ee441c5da46ab17b416bb7e3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Token/Token.psd using Guid(48c423ee441c5da46ab17b416bb7e3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d09576ccfccdb9e24c9abcc04a98b91') in 0.042204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Purple Square.png
+  artifactKey: Guid(afc2d52c1721c944bb62116cccaf3f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Purple Square.png using Guid(afc2d52c1721c944bb62116cccaf3f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a651dfb8d25736b4871b15608c42d4c4') in 0.034690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Ribbon 3.png
+  artifactKey: Guid(f2f087fca1036be40a08d450d6c05e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Ribbon 3.png using Guid(f2f087fca1036be40a08d450d6c05e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7758e1b57e543ce0155bb3d214b773f7') in 0.029415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Potion/Potion2/Turquoise.png
+  artifactKey: Guid(51ee4022dd571234fa0b654f73467edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Potion/Potion2/Turquoise.png using Guid(51ee4022dd571234fa0b654f73467edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb218958ceaa161f0eca6381f019bb3') in 0.044812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Podium/Podium.psd
+  artifactKey: Guid(9d39b3f900b2a57408a13591afb8a7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Podium/Podium.psd using Guid(9d39b3f900b2a57408a13591afb8a7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9953810681c654d7c7dd3004221abe4') in 0.043029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Purple Button Claim.png
+  artifactKey: Guid(c4331bb414f561844a2f235b04e04404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Purple Button Claim.png using Guid(c4331bb414f561844a2f235b04e04404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bcb9562c4ea206ba624aac464f5032d') in 0.034723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/NO THANKS.png
+  artifactKey: Guid(bdc2f989e2fb20e4f918f8650a2d116e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/NO THANKS.png using Guid(bdc2f989e2fb20e4f918f8650a2d116e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c5de94c254e530c8aadd8e1afcba67') in 0.031808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Artwork PSD + Screens/SCREENS/Prize Machine2.jpg
+  artifactKey: Guid(4b703e76444c54a409545c02c86e116a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Artwork PSD + Screens/SCREENS/Prize Machine2.jpg using Guid(4b703e76444c54a409545c02c86e116a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e17bbf5db471bea0562b8216570cbf1') in 0.232474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/success.png
+  artifactKey: Guid(5d79e8c081b45594d896d6b21816ae17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/success.png using Guid(5d79e8c081b45594d896d6b21816ae17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36bc175cfa4d1195aa4c7f62586720d7') in 0.032557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Prize Machine-assets/Top Prize Approved.png
+  artifactKey: Guid(bc7a212f06d9d2e4f8a45e3f33139b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Prize Machine-assets/Top Prize Approved.png using Guid(bc7a212f06d9d2e4f8a45e3f33139b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb82370a5e7ba930cbdde112ee8cd7c') in 0.044423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Tuto Ellipse.png
+  artifactKey: Guid(6e17e27cde593c245a8f34563057e558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Tuto Ellipse.png using Guid(6e17e27cde593c245a8f34563057e558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171ca02086de24dfe7265d36f48bd633') in 0.031970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/TV/Outline.png
+  artifactKey: Guid(f22ed3a2fb84e3f44b30d17523b2e296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/TV/Outline.png using Guid(f22ed3a2fb84e3f44b30d17523b2e296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c658d39d3a727325612ab0bb53bdb5') in 0.052019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Store/White.png
+  artifactKey: Guid(8b37978544223b142943c4b7b260353f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Store/White.png using Guid(8b37978544223b142943c4b7b260353f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9a1639c3263002fe310f0df92628e1') in 0.047304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/White.png
+  artifactKey: Guid(5601d3acbc811c84bac0736c3985d4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/White.png using Guid(5601d3acbc811c84bac0736c3985d4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00651bc7679bcc63f2ccd285de159f8c') in 0.053794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Gift/White.png
+  artifactKey: Guid(0b255608c8d94f04b88453715e175845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Gift/White.png using Guid(0b255608c8d94f04b88453715e175845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df565a5b83fe87ee1ef08bc51729628b') in 0.061338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Icon Club/White.png
+  artifactKey: Guid(525b3150dc46c644e98633f78b4aefd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Icon Club/White.png using Guid(525b3150dc46c644e98633f78b4aefd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af4fd8a3ec07e332a6d9d48d387593e') in 0.048947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Potion/Potion/Yellow.png
+  artifactKey: Guid(50d3ccda069ab6a4fb7752a8b6961e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Potion/Potion/Yellow.png using Guid(50d3ccda069ab6a4fb7752a8b6961e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7d91b1858d7a366e1b8750a476b3df') in 0.054220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Flag/Outline.png
+  artifactKey: Guid(25b6f7b0a0d490c45a9c19fd7b44215c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Flag/Outline.png using Guid(25b6f7b0a0d490c45a9c19fd7b44215c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55794e114902fb53b08a26123c46d021') in 0.048308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Waouh.png
+  artifactKey: Guid(8462306cddb06ae4da0a7e49e1486e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Waouh.png using Guid(8462306cddb06ae4da0a7e49e1486e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4bc015c323605dd7ba0bb58178aeee9') in 0.034202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/Settings.png
+  artifactKey: Guid(d8ae3c17487fd034e8b7b6f782d98260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/Settings.png using Guid(d8ae3c17487fd034e8b7b6f782d98260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd358b3fbc1e1fc8c9c9aa6d414cde1a1') in 0.037257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Glasses/White.png
+  artifactKey: Guid(bab73c57b0e30a64bb90a5a03970f77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Glasses/White.png using Guid(bab73c57b0e30a64bb90a5a03970f77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df78b88b356eec67bd33abb6c10cfce1') in 0.047953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Pub Yellow Button Open.png
+  artifactKey: Guid(37cda49eb47c1da41bcf972c88e6b5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Pub Yellow Button Open.png using Guid(37cda49eb47c1da41bcf972c88e6b5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6cd95f01c7a98b8d3cd82354aba08c6') in 0.033661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Mail/Outline.png
+  artifactKey: Guid(b29866249248b074baace748df82c482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Mail/Outline.png using Guid(b29866249248b074baace748df82c482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0c08ffa45a6d2ac34d72ff3b2a960c') in 0.056971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bolt/White.png
+  artifactKey: Guid(6ea2f791df821a947923f02503a9ae41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bolt/White.png using Guid(6ea2f791df821a947923f02503a9ae41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2019e0d8a51c01b454caa8bb1886525c') in 0.056348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Square Blue.png
+  artifactKey: Guid(829212c20ba2ea642ac6037415712f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Square Blue.png using Guid(829212c20ba2ea642ac6037415712f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5979c70890d53c57e29ad6ca36b6e911') in 0.030623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Potion/Potion/White.png
+  artifactKey: Guid(d4675828ce1e4c142a77d0e55259768b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Potion/Potion/White.png using Guid(d4675828ce1e4c142a77d0e55259768b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6137ca33d17717534549172d556de75') in 0.051918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Gift/Red-Yellow.png
+  artifactKey: Guid(728cd4287fe839f4c94a54dd148cdd58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Gift/Red-Yellow.png using Guid(728cd4287fe839f4c94a54dd148cdd58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee36a9238ea5b71a8dda3a783e3549e') in 0.046183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Double Sword/White.png
+  artifactKey: Guid(c950d5fac449a2b49ac744efe37a2cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Double Sword/White.png using Guid(c950d5fac449a2b49ac744efe37a2cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820336e5a3485edcc8fe7e2236e6486b') in 0.047719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Prize Machine-assets/SELECT A CHEST.png
+  artifactKey: Guid(900a697ea92209a4a98cd699c3ebbf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Prize Machine-assets/SELECT A CHEST.png using Guid(900a697ea92209a4a98cd699c3ebbf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6053b5e42104a6e8e7a46546099aad79') in 0.033747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Potion/Potion2/Outline.png
+  artifactKey: Guid(6182a466aa2aa0746893b6a7e78e14e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Potion/Potion2/Outline.png using Guid(6182a466aa2aa0746893b6a7e78e14e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76b3705bf565fa4876bbb9b3f7121fb') in 0.050969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/TV/TV.psd
+  artifactKey: Guid(cd381dbddb87b9e43ad98a813937a078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/TV/TV.psd using Guid(cd381dbddb87b9e43ad98a813937a078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5458ef41b33a4a7955a979a92da2dac') in 0.052682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Pills/Outline.png
+  artifactKey: Guid(6c3d28729acfce746b4d99521191c2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Pills/Outline.png using Guid(6c3d28729acfce746b4d99521191c2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba38428e7c0332603079e94f6b505bc1') in 0.053253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Icon Club/Purple.png
+  artifactKey: Guid(e7eac97092b3e9f4194d05f2df8dc2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Icon Club/Purple.png using Guid(e7eac97092b3e9f4194d05f2df8dc2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524fd1aaab10b3aedc47a093ff23255c') in 0.053089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Podium/White.png
+  artifactKey: Guid(49543b9a48fd5864ab9570e24a9b79b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Podium/White.png using Guid(49543b9a48fd5864ab9570e24a9b79b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1acf31f390cfab889b5fd0576a568911') in 0.049064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Icon Club/Mauve.png
+  artifactKey: Guid(e3e1de1d69f33994780e60d04f120f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Icon Club/Mauve.png using Guid(e3e1de1d69f33994780e60d04f120f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768483cab3484996d1a9c965b0d2b8ef') in 0.055307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Mail/White.png
+  artifactKey: Guid(21d27509c58756b4ab0e1f99a6c4af20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Mail/White.png using Guid(21d27509c58756b4ab0e1f99a6c4af20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cdc802fd244fa11e99b193b0be7c6fa') in 0.050714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Pub Green Button Skip.png
+  artifactKey: Guid(b022c627514338746950564b774c4ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Pub Green Button Skip.png using Guid(b022c627514338746950564b774c4ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1aeb3a1ced9c34593ed307f6ebc71b') in 0.036133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Flag/Red.png
+  artifactKey: Guid(dc8de4786fddf914dbe72e4b1f309c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Flag/Red.png using Guid(dc8de4786fddf914dbe72e4b1f309c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00e426308c5603a51d44e992be69056') in 0.057703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Purple Button Continue.png
+  artifactKey: Guid(111963f2c7bf0c44c84605e04d851d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Purple Button Continue.png using Guid(111963f2c7bf0c44c84605e04d851d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0fa38bdf7f425a49b851671a6ea138') in 0.044087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Artwork PSD + Screens/SCREENS/Prize Machine.jpg
+  artifactKey: Guid(1a75368762510e6468c63bf7e52efd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Artwork PSD + Screens/SCREENS/Prize Machine.jpg using Guid(1a75368762510e6468c63bf7e52efd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64dae199b07a5b6f0ff7b8b0f9540481') in 0.260234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Sword/Sword.png
+  artifactKey: Guid(cce3a9bf6164d4a4c8f5199a5c478681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Sword/Sword.png using Guid(cce3a9bf6164d4a4c8f5199a5c478681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175b4a152bb06326d2f4ba4ec517ba4e') in 0.058638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bag/Bag 1/White Bag 1.png
+  artifactKey: Guid(8ad9f0f41f84f224f9c9223f0d112f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bag/Bag 1/White Bag 1.png using Guid(8ad9f0f41f84f224f9c9223f0d112f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461c57307441142b9d833e24dc10c6df') in 0.067512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Artwork PSD + Screens/PSD/Win.psd
+  artifactKey: Guid(8af1cbe39ec74994d85767b95cbb4d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Artwork PSD + Screens/PSD/Win.psd using Guid(8af1cbe39ec74994d85767b95cbb4d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4dee20262627b8932b2b749fa67223') in 0.290195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.813171 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/10.png
+  artifactKey: Guid(8c272547439a4d7418b6dc2c51eb352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/10.png using Guid(8c272547439a4d7418b6dc2c51eb352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d1a72905bf053ea834aa11550943b4') in 0.033792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/16.png
+  artifactKey: Guid(67b5c520997d48e4ea4b7efdebbb57e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/16.png using Guid(67b5c520997d48e4ea4b7efdebbb57e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490a3158225d1ae32812a3e70472d6fa') in 0.052782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/5.png
+  artifactKey: Guid(c07cc1c049d14ba479d9eb11e7761d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/5.png using Guid(c07cc1c049d14ba479d9eb11e7761d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5b3142ffc59340b7fd3930748cf1c5') in 0.046342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Prize Machine-assets/3.png
+  artifactKey: Guid(03fa52ca95deb7a4c8a7379e29e70b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Prize Machine-assets/3.png using Guid(03fa52ca95deb7a4c8a7379e29e70b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e61263f87eb7edeb0da66b12d933b9') in 0.028430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/7.png
+  artifactKey: Guid(b5804e64dd2cd8745b0c1ba2141e631c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/7.png using Guid(b5804e64dd2cd8745b0c1ba2141e631c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ad9762ee8bf8ed8e06db5f4eeb6a57') in 0.042889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/2.png
+  artifactKey: Guid(e5d7a52377356dd41b31a97832b814db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI Mobile Hyper-Casual/Sprites/Emojis PNG/PNG/Set Emojis-assets/2.png using Guid(e5d7a52377356dd41b31a97832b814db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b224eea1cf6a7cefdd5e63a8f2ca1dd') in 0.047773 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

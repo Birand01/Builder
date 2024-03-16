@@ -380,7 +380,9 @@
 "Assets/Scripts/Player/PlayerController.cs"
 "Assets/Scripts/Player/PlayerInput.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
+"Assets/Scripts/Spawners/IronSpawner/CylinderRotation.cs"
 "Assets/Scripts/Spawners/StoneSpawner/StoneSpawner.cs"
+"Assets/Scripts/Spawners/WoodSpawner/WoodSpawner.cs"
 -langversion:9.0
 
 /deterministic

@@ -70,6 +70,8 @@
     <Compile Include="Assets\Art\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\Art\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Scripts\Spawners\StoneSpawner\StoneSpawner.cs" />
+    <Compile Include="Assets\Scripts\Spawners\IronSpawner\CylinderRotation.cs" />
+    <Compile Include="Assets\Scripts\Spawners\WoodSpawner\WoodSpawner.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
