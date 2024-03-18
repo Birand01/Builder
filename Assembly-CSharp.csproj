@@ -59,9 +59,11 @@
     <Compile Include="Assets\Art\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Art\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+    <Compile Include="Assets\Scripts\Spawners\IronSpawner\CylinderRotation.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerAnimation.cs" />
     <Compile Include="Assets\Scripts\Base\InteractionBase.cs" />
     <Compile Include="Assets\Scripts\DI\DepedencyInjector.cs" />
+    <Compile Include="Assets\Scripts\Spawners\WoodSpawner\WoodSpawner.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerInput.cs" />
     <Compile Include="Assets\Art\Joystick Pack\Examples\JoystickPlayerExample.cs" />
     <Compile Include="Assets\Art\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
@@ -70,8 +72,9 @@
     <Compile Include="Assets\Art\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\Art\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Scripts\Spawners\StoneSpawner\StoneSpawner.cs" />
-    <Compile Include="Assets\Scripts\Spawners\IronSpawner\CylinderRotation.cs" />
-    <Compile Include="Assets\Scripts\Spawners\WoodSpawner\WoodSpawner.cs" />
+    <Compile Include="Assets\Scripts\Player\StackManager.cs" />
+    <Compile Include="Assets\Scripts\Interactions\WoodInteraction.cs" />
+    <Compile Include="Assets\Scripts\Interactions\WoodSpawnPlaceInteraction.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
