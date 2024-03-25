@@ -20,7 +20,7 @@ public class PlayerAnimation : MonoBehaviour
         PlayerInput.OnPlayerInput -= MovementAnimation;
     }
 
-    private void MovementAnimation(Vector3 movementVector)
+    public void MovementAnimation(Vector3 movementVector)
     {
         if (movementVector.x != 0 || movementVector.z != 0)
         {

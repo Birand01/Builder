@@ -13,7 +13,7 @@ public class WoodSpawner : MonoBehaviour
     private float yAxis;
     private int spawnIndex;
     private int currentObjectAmount = 0;
-    private bool canSpawn=true;
+    private bool playerInteraction=false;
     private void Awake()
     {
         spawnIndex = 0;
@@ -38,12 +38,12 @@ public class WoodSpawner : MonoBehaviour
 
     private void PlayerInteraction(bool state)
     {
-        canSpawn = state;
+        playerInteraction = state;
     }
 
     private IEnumerator SpawnWood()
     {
-        while (currentObjectAmount<maxObjectCapacity && canSpawn)
+        while (currentObjectAmount<maxObjectCapacity && !playerInteraction)
         {
             GameObject wood = Instantiate(woodPrefab);
             wood.transform.position = new Vector3(transform.position.x,transform.position.y+0.3f,transform.position.z);
@@ -66,6 +66,7 @@ public class WoodSpawner : MonoBehaviour
                 spawnIndex = 0;
                 yAxis += 0.3f;
             }
+           
             yield return new WaitForSeconds(0.5f);
         }
 

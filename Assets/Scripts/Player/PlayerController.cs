@@ -19,12 +19,12 @@ public class PlayerController : MonoBehaviour
         PlayerInput.OnPlayerInput -= HandleAngularMovement;
         PlayerInput.OnPlayerInput -= HandleMovement;
     }
-    private void HandleMovement(Vector3 movementVector)
+    public void HandleMovement(Vector3 movementVector)
     {
         playerMovement.CharacterMovement(movementVector);
     }
 
-    private void HandleAngularMovement(Vector3 angularMoveVector)
+    public void HandleAngularMovement(Vector3 angularMoveVector)
     {
         playerMovement.CharacterAngularMovement(angularMoveVector);
     }

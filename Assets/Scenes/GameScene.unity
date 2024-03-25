@@ -934,6 +934,85 @@ Transform:
   m_Father: {fileID: 1401601420}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1803086675 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2228691195779207963, guid: 6cd056375ffecbf4898f9e86653ee54b, type: 3}
+  m_PrefabInstance: {fileID: 1309578839608167790}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1803086676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803086675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39cf4dba882400d4484327b7d6370e28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 5cec3835a0539b44caa019ea70ed9433, type: 2}
+  unityEventResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1803086678}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: HandleAngularMovement
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1803086678}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: HandleMovement
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1803086680}
+        m_TargetAssemblyTypeName: PlayerAnimation, Assembly-CSharp
+        m_MethodName: MovementAnimation
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1803086678 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1309578841049792835, guid: 6cd056375ffecbf4898f9e86653ee54b, type: 3}
+  m_PrefabInstance: {fileID: 1309578839608167790}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803086675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d13aa578426c2dc4490ddaac5a61081c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1803086680 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1309578841049792832, guid: 6cd056375ffecbf4898f9e86653ee54b, type: 3}
+  m_PrefabInstance: {fileID: 1309578839608167790}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803086675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b4f243610a85bd49b3c105429d52a24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1929396405
 GameObject:
   m_ObjectHideFlags: 0
@@ -1087,6 +1166,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1309578839704337899, guid: 6cd056375ffecbf4898f9e86653ee54b, type: 3}
+      propertyPath: A
+      value: 
+      objectReference: {fileID: 11400000, guid: 5cec3835a0539b44caa019ea70ed9433, type: 2}
     - target: {fileID: 7384998834869451224, guid: 6cd056375ffecbf4898f9e86653ee54b, type: 3}
       propertyPath: stackBase
       value: 

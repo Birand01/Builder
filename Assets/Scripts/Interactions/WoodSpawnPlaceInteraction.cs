@@ -10,13 +10,13 @@ public class WoodSpawnPlaceInteraction : InteractionBase
     protected override void OnTriggerEnterAction(Collider other)
     {
         Debug.Log("INTERACT IN");
-        OnPlayerInteraction?.Invoke(false);
+        OnPlayerInteraction?.Invoke(true);
     }
     protected override void OnTriggerExitAction(Collider other)
     {
         Debug.Log("INTERACT OUT");
 
-        OnPlayerInteraction?.Invoke(true);
+        OnPlayerInteraction?.Invoke(false);
     }
 
 }

@@ -8,6 +8,7 @@ public class PlayerInput : MonoBehaviour
     public delegate void PlayerInputHandler(Vector3 movement);
     public static event PlayerInputHandler OnPlayerInput;
 
+    [SerializeField] private Vector3Event A;
 
     [Inject] private DynamicJoystick joystick;
     private Vector3 movementVector;
@@ -22,7 +23,7 @@ public class PlayerInput : MonoBehaviour
         moveVector = Vector3.zero;
         moveVector.x = joystick.HorizontalAxis();
         moveVector.z = joystick.VerticalAxis();
-        OnPlayerInput?.Invoke(moveVector);
+        A.Raise(moveVector);
 
     }
 }
